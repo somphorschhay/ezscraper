@@ -1,0 +1,32 @@
+object FormFlash: TFormFlash
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'FormFlash'
+  ClientHeight = 139
+  ClientWidth = 470
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 48
+    Width = 380
+    Height = 60
+    Caption = 'EzCodeGenerator'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 60
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+end
